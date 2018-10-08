@@ -1,0 +1,40 @@
+{
+  "name": "node-jwt-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "heroku": "node server.js",
+    "travis": "npm run mocha",
+    "test": "mocha --exit --colors",
+    "mocha-exit0": "mocha --exit --file test/setup.test.js",
+    "test2": "nodemon --exec npm run mocha-exit0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.3",
+    "express-form-data": "^2.0.6",
+    "jsonwebtoken": "^8.2.0",
+    "knex": "^0.14.4",
+    "mongoose": "^5.0.6",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.4",
+    "npm": "^6.4.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "faker": "^3.1.0",
+    "mocha": "^5.0.4",
+    "nyc": "^11.6.0"
+  }
+}

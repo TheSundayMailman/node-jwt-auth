@@ -1,0 +1,41 @@
+[
+  {
+    "username": "bob.user@example.com",
+    "password": "$2a$10$w389CzQX0a1rZeuhToMA1uqg4jN.2dZLp9eWJoO3H82VeosXL5RtO",
+    "firstName": "Bob",
+    "lastName": "User",
+    "profilePic": {
+      "public_id": "",
+      "secure_url": ""
+    },
+    "createdAt": "2018-01-01T00:00:00.000Z",
+    "updatedAt": "2018-01-01T00:00:00.000Z",
+    "_id": "111111111111111111111100"
+  },
+  {
+    "username": "joe.user@example.com",
+    "password": "$2a$10$GhtG1DO/B9IxzSwZ3CX22OnzFx34.1HScF.TvXgMyUaIjGUaA3Fqu",
+    "firstName": "Joe",
+    "lastName": "User",
+    "profilePic": {
+      "public_id": "",
+      "secure_url": ""
+    },
+    "createdAt": "2018-01-01T00:00:00.000Z",
+    "updatedAt": "2018-01-01T00:00:00.000Z",
+    "_id": "111111111111111111111101"
+  },
+  {
+    "username": "jane.user@example.com",
+    "password": "$2a$10$Ci77gYrojpL4YtjuWPyK.ucwPXOEhkso8focyXGfzWNAjc2xA79Iq",
+    "firstName": "Jane",
+    "lastName": "User",
+    "profilePic": {
+      "public_id": "",
+      "secure_url": ""
+    },
+    "createdAt": "2018-01-01T00:00:00.000Z",
+    "updatedAt": "2018-01-01T00:00:00.000Z",
+    "_id": "111111111111111111111102"
+  }
+]
